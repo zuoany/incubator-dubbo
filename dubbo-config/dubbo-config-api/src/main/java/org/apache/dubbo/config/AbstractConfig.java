@@ -96,6 +96,7 @@ public abstract class AbstractConfig implements Serializable {
         return value;
     }
 
+    //test git
     private static String getTagName(Class<?> cls) {
         String tag = cls.getSimpleName();
         for (String suffix : SUFFIXES) {
